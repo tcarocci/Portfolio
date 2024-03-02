@@ -4,7 +4,6 @@
 
 body {
     background-color: #ffffff;
-
 }
 
 .nav-anchor,
@@ -36,6 +35,7 @@ header h1 {
     padding-left: 50px;
     padding-right: 10px;
     display: inline-block;
+    color: rgb(255, 255, 255);
     background-color: rgb(255, 8, 0);
     box-shadow: 3px 4px 5px rgba(255, 255, 255, 0.466);
     border-radius: 2px;
