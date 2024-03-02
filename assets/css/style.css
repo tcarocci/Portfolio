@@ -22,12 +22,10 @@ body {
 }
 
 header {
-    position: fixed;
     height: 75px;
     width: 100%;
     background-color: rgb(0, 0, 0);
     box-shadow: 0px 5px 5px rgba(82, 82, 82, 0.432);
-    font-size: 20px;
     z-index: 99;
     font-style: italic;
     font-weight: bold;
@@ -44,14 +42,11 @@ header h1 {
 }
 
 header nav {
-    padding-top: 20px;
     margin-right: 50px;
-    font-size: 25px;
     float: right;
 }
 
 header nav ul li {
-    margin-left: 25px;
     padding-bottom: 5px;
     display: inline-block;
     border-bottom: 3px solid rgb(255, 8, 0);
@@ -62,6 +57,7 @@ header nav ul li {
     height: 250px;
     background-image: url("../images/redandblack.jpg");
     background-size: cover;
+    width: 100%;
 }
 
 
@@ -74,7 +70,6 @@ header nav ul li {
     position: absolute;
     top: 21%;
     right: 7%;
-    font-size: 30px;
 }
 
 section {
@@ -83,39 +78,34 @@ section {
 
 #about-me {
     margin-top: 25px;
-    font-size: 3pc;
-    padding-left: 60px;
+    padding-left: 10px;
     text-align: right;
 }
 
 #work {
     margin-top: 35px;
-    font-size: 3pc;
-    padding-left: 70px;
+    padding-left: 14px;
 }
 
 #contact-me {
     margin-top: 35px;
-    padding-left: 24px;
-    font-size: 3pc;
+    padding-left: 5px;
     text-align: right;
 }
 
 #about-me-p {
     margin-top: 25px;
     margin-right: 65px;
-    font-size: 20px;
-    border-left: 3px solid rgb(255, 8, 0);
     margin-left: 20px;
+    border-left: 3px solid rgb(255, 8, 0);
     padding-left: 20px;
-    display: flex;
 }
 
 #about-me-p img{
     padding-right: 10px;
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 325px;
+    width: 100%;
 }
 
 #work-p {
@@ -129,10 +119,9 @@ section {
 
 #contact-me-ul {
     padding-top: 30px;
-    margin-top: 35px;
-    font-size: 30px;
+    margin-left: 8px;
     border-left: 3px solid rgb(255, 8, 0);
-    margin-left: 20px;   
+    margin-bottom: 20px;    
 }
 
 #contact-me-ul li {
@@ -157,8 +146,8 @@ section {
 .display {
     border-style: solid;
     border-width: 5px;
-    margin: 20px;
-    flex: 2 0 300px;
+    margin-bottom: 20px;
+    margin-left: 3px;
     box-shadow: 10px 10px 5px gray;  
 }
 
@@ -170,7 +159,6 @@ section {
 .display h3 {
   padding: 20px;
   background-color: rgb(255, 8, 0);
-  font-size: 25px;
   font-weight: 50px;
   text-align: center;
 }
@@ -184,4 +172,152 @@ section {
 .project-a {
     text-decoration: none;
     color:black;
+}
+
+@media (max-width:600px) {
+    header {
+        height: 90px;
+    }
+    header nav ul li {
+        padding-top: 5px;
+        margin-right: 17px;
+    }
+    #overlay-text {
+        top: 30%;
+        right: 5%;
+}
+}
+
+@media (min-width:601px) {
+    header nav{
+        padding-top: 20px; 
+    }
+
+    header nav ul li {
+        margin-left: 15px;
+        font-size: 85%;  
+    }  
+    #overlay-text {
+        top: 30%;
+        right: 5%;
+} 
+}
+
+@media (min-width:652px) {
+    header nav ul li {
+        margin-left: 25px;
+    }
+}
+
+@media (min-width:768px) {
+    header {
+        position: fixed;
+        font-size: 20px;
+    }
+    #overlay-text {
+        font-size: 30px;
+        top:20%;
+        right: 4%;
+    }
+
+    header nav{
+        padding-top: 20px;
+        font-size: 95%;
+    }
+    #about-me{
+        font-size: 3pc;
+        padding-left: 60px;
+    }
+    #about-me-p{
+        font-size: 20px;   
+        display: flex;
+    }
+    
+    #work {
+        font-size: 3pc;
+        padding-left: 70px;
+    }
+    #contact-me {
+        font-size: 3pc;
+        padding-left: 24px;
+    }
+    #contact-me-ul {
+        margin-top: 35px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    .display {
+        margin: 20px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .display h3 {
+        font-size: 25px;
+    }
+}
+    
+
+@media (min-width:857px) {
+    header {
+        position: fixed;
+        font-size: 20px;
+    }
+    #overlay-text {
+        font-size: 30px;
+    }
+
+    header nav{
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    header nav ul li {
+        margin-left: 25px;
+    }
+
+    #about-me{
+        font-size: 3pc;
+        padding-left: 60px;
+    }
+    #about-me-p{
+        font-size: 20px;   
+        display: flex;
+    }
+    
+    #work {
+        font-size: 3pc;
+        padding-left: 70px;
+    }
+    #contact-me {
+        font-size: 3pc;
+        padding-left: 24px;
+    }
+    #contact-me-ul {
+        margin-top: 35px;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    
+    .display {
+        margin: 20px;
+        margin-bottom: 0;
+        margin-left: 0;
+        flex: 2 0 300px;
+
+    }
+    .display h3 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:1200px) {
+    header nav ul li {
+        margin-left: 30px;
+        font-size: 125%;
+    }
+    #about-me-p {
+    font-size: 32px;
+    }
 }
