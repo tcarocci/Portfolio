@@ -31,7 +31,6 @@ header {
     z-index: 99;
     font-style: italic;
     font-weight: bold;
-    
 }
 
 header h1 {
@@ -56,7 +55,6 @@ header nav ul li {
     padding-bottom: 5px;
     display: inline-block;
     border-bottom: 3px solid rgb(255, 8, 0);
-    
 }
 
 
@@ -77,7 +75,6 @@ header nav ul li {
     top: 21%;
     right: 7%;
     font-size: 30px;
-
 }
 
 section {
@@ -119,7 +116,6 @@ section {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-
 }
 
 #work-p {
@@ -136,8 +132,7 @@ section {
     margin-top: 35px;
     font-size: 30px;
     border-left: 3px solid rgb(255, 8, 0);
-    margin-left: 20px;
-    
+    margin-left: 20px;   
 }
 
 #contact-me-ul li {
@@ -145,13 +140,11 @@ section {
     margin-left: 40px;
     border-bottom: 3px solid rgb(255, 8, 0);
     padding-bottom: 5px;
-
 }
 
 #contact-me-ul:hover {
     color:black;
 }
-
 
 .projects {
     margin: 21px;
@@ -161,21 +154,17 @@ section {
     border-left: 3px solid rgb(255, 8, 0);   
 }
 
-
-
 .display {
     border-style: solid;
     border-width: 5px;
     margin: 20px;
     flex: 2 0 300px;
-    box-shadow: 10px 10px 5px gray;
-    
+    box-shadow: 10px 10px 5px gray;  
 }
 
 .display:hover {
     color:rgb(255, 8, 0);
     border-style: double;
-
 }
 
 .display h3 {
@@ -185,7 +174,6 @@ section {
   font-weight: 50px;
   text-align: center;
 }
-
 
 .projects img {
     display: block;
