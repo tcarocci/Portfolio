@@ -5,52 +5,84 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Tyler's Portfolio</title>
 </head>
 
 
 <body>
     <main>
-        <header>
+        <header class="main-hearder">
             <h1>Tyler Alberts</h1>
             <nav>
                 <ul>
-                    <li><a href=#about-me>About Me</a></li>
-                    <li><a href=#work>Work</a></li>
-                    <li><a href=#contact-me>Contact Me</a></li>
-                    <li><a href=#resume>Resume</a></li>
+                    <li><a class=nav-anchor href=#about-me>About Me</a></li>
+                    <li><a class=nav-anchor href=#work>Work</a></li>
+                    <li><a class=nav-anchor href=#contact-me>Contact Me</a></li>
+                    <li><a class=nav-anchor href="assets/downloads/ResumeW.docx">Resume</a></li>
                 </ul>
             </nav>
         </header>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>
-
+        <div id="bg-picture">
+            <div id="overlay-text">I AM A FUTURE SOFTWARE ENGINEER!</div>
+        </div>
+        <section>
+            <h2 id="about-me">About Me</h2>
+            <p id="about-me-p">
+                <img src="assets/images/mypicture.jpg" alt="Tyler">
+                    Highly driven, energetic individual pursuing a career as a Software Engineer. 
+                I currently have seven years in the IT industry as a Help/Service Desk Specialist and 
+                thrive for the challenge of learning new things.
+                <br>
+                <br>
+                    Seven years in IT plus four years as an AT&T Premises Techinican, I've develop some extreme troubleshooting skills
+                that have pushed me to get the task done regardless how difficult and excites me to bring these skill to my next career.
+                Constantly striving to improve my knowledge in the IT industry and looking forword to my new journey in software deveolment.
             </p>
         </section>
-        <section id="work">
-            <h2>Work</h2>
-            <p>
-
-            </p>
+        <section>
+            <h2 id="work">Work</h2>
+                <div class="projects">
+                    <div class="display">
+                        <a class="project-a" href="https://github.com/tcarocci/prework-study-guide">
+                        <h3>Prework</h3>
+                        <img src="assets/images/prework.png" alt="Prework" />
+                        </a>
+                    </div>
+                    <div class="display">
+                        <a class="project-a" href="https://github.com/tcarocci/git-init-sample">
+                        <h3>Init Sample</h3>
+                        <img src="assets/images/sample.png" alt="Sample" />
+                        </a>
+                    </div>
+                    <div class="display">
+                        <a class="project-a" href="https://github.com/tcarocci/TyCodes">
+                        <h3>TyCodes</h3>
+                        <img src="assets/images/tycodes.png" alt="To be determined 2"/>
+                        </a>
+                     </div>
+                    <div class="display">
+                        <a class="project-a" href="https://github.com/tcarocci/first-day-demo">
+                        <h3>First Day Demo</h3>
+                        <img src="assets/images/fdd.png" alt="First Day"/>
+                        </a>
+                    </div>           
+                    <div class="display">
+                        <a class="project-a" href="https://tcarocci.github.io/Module1C-HW/">
+                        <h3>HTML Semantics</h3>
+                        <img src="assets/images/htmlsemantics.png" alt="Semantic Project"/>
+                        </a>
+                    </div>
+              </div>  
         </section>
-        <section id="contact-me">
-            <h2>Contact Me</h2>
-            <p>
-
+        <section>
+            <h2 id="contact-me">Contact <br>Me</h2>
+            <ul id="contact-me-ul">
+                <li><a class="contact-a" href="tel:8175842745">(817) 584-2745</a></li>
+                <li><a class="contact-a" href="mailto:t.23carocci@yahoo.com">t.23carocci@yahoo.com</a></li>
+                <li><a class="contact-a" href=https://github.com/tcarocci> Tyler's Github</a></li>
             </p>
         </section>
     </main>
-<footer>
-
-
-</footer>
-
-
-
 </body>
-
-
-
 </html>
